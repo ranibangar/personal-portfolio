@@ -16,3 +16,12 @@ let typed = new Typed('.auto-input',{
  backDelay:2000,
  loop:true,
 })
+
+// Active Link State On Scroll
+
+//Get All Links
+let navLinks = document.querySelectorAll('nav ul li a')
+console.log(navLinks)
+//Get All Sections
+let sections = document.querySelectorAll('section')
+console.log(sections)
